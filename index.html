@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 del Tema 3 DIW</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Imágenes con diferentes formatos</h1>
+        <img src="../IMAGES/logotipoOptimizado.png" alt="Logotipo de Whatsapp" id="logo"><br>
+    </header>
+
+    <img src="../IMAGES/IMAGEN1.jpg" alt="Imagen de un paisaje montañoso con mar de nubes" id="imagen1"
+        class="fondo"><br><br>
+    <img src="../IMAGES/logotipoOptimizado.png" alt="Logotipo de Whatsapp" id="imagen2"><br><br>
+    <img src="../IMAGES/IMAGEN3.svg" alt="Gráfico de camara de fotos polaroid" id="imagen3"><br>
+    <div>
+        <img src="../IMAGES/IMAGEN3.svg" alt="Logotipo cámara de fotos" id="svg1"srcset="../IMAGES/IMAGEN3.svg 1x,../IMAGES/IMAGEN3.svg 2x"
+        sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 300px">
+
+        <img src="../IMAGES/IMAGEN3.svg" alt="Logotipo cámara de fotos" id="svg2" srcset="../IMAGES/IMAGEN3.svg 1x,../IMAGES/IMAGEN3.svg 2x" 
+        sizes="(max-width: 600px) 90vw,(max-width: 1024px) 40vw,250px">
+
+        <img src="../IMAGES/IMAGEN3.svg" alt="Logotipo cámara de fotos" id="svg3" srcset="../IMAGES/IMAGEN3.svg 1x,../IMAGES/IMAGEN3.svg 2x" 
+        sizes="(max-width: 600px) 80vw,(max-width: 1024px) 60vw,350px">
+    </div>
+</body>
+
+</html>
