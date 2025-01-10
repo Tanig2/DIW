@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+}
+
+#logo{
+    margin: auto;
+    width: 50px;
+}
+
+
+#imagen2{
+    margin: auto;
+    width: 100px;
+}
+
+body {
+    background-image: url("../IMAGES/IMAGEN1.webp");
+    background-size: cover;
+    background-position: 100%;
+}
+
+#svg1{
+    width: 100px;
+    height: 100px;
+}
+
+#svg2{
+    width: 200px;
+    height: 200px;
+}
+
+#svg3{
+    width: 300px;
+    height: 300px;
+}
+
+
+
